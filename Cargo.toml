@@ -12,10 +12,16 @@ path = "src/nginx_log2.rs"
 name = "json"
 path = "src/json.rs"
 
+[[bin]]
+name = "json2"
+path = "src/json2.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 anyhow = "1.0.93"
 chrono = { version = "0.4.38", features = ["serde"] }
+pest = { version = "2.7.14", features = ["pretty-print"] }
+pest_derive = "2.7.14"
 regex = "1.11.1"
 winnow = { version = "0.6.20", features = ["simd"] }
