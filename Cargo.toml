@@ -24,4 +24,6 @@ chrono = { version = "0.4.38", features = ["serde"] }
 pest = { version = "2.7.14", features = ["pretty-print"] }
 pest_derive = "2.7.14"
 regex = "1.11.1"
+rhai = { version = "1.20.0", features = ["serde"] }
+serde = { version = "1.0.215", features = ["derive"] }
 winnow = { version = "0.6.20", features = ["simd"] }
